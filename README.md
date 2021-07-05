@@ -12,7 +12,10 @@ Tom's Ultra Unity Utility Mega Pack
 
 <h1>Usage</h1>
 <h2>Property Group Extension</h2>
+<h3>Installation</h3>
+<p>Just drag in the Property Group Extension folder into your assets folder and you're good to go!</p>
 
+<h3>Demonstration</h3>
 ```csharp
 using Tom.PropertyGroups.Runtime;
 
