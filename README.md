@@ -6,7 +6,7 @@ Tom's Ultra Unity Utility Mega Pack
 
 <h1>Current Features</h1>
 <ul>
-  <li><b>Property Group Extension for Unity (<i>Made in Unity 2019.4.17f1</i>)</b></li>
+  <li><b>Property Group Extension for Unity (<i>Made in Unity 2019.4.17f1</i>)</b> - Simple Inspector script for organising fields into groups.</li>
   <li><b>More to come!</b></li>
 </ul>
 
