@@ -20,6 +20,7 @@ public class TestMonoBehaviour : MonoBehaviour {
   [PropertyGroup("Group Label")] public float number;
 }
 ```
+<img alt="In-Editor Preview" src="https://i.imgur.com/sQObPgb.png"/>
 
 <h1>Credits</h1>
 <ul>
