@@ -37,7 +37,7 @@ public class TestMonoBehaviour : MonoBehaviour {
 using Tom.Automation.Runtime;
 
 public class TestMonoBehaviour : AutomatedMonoBehaviour {
-     [Assign(AssignEvent.Awake, GetMode.Self)]public Rigidbody rigidBody; //Calls GetComponent on the member in Awake.
+    [Assign(AssignEvent.Awake, GetMode.Self)]public Rigidbody rigidBody; //Calls GetComponent on the member in Awake.
     [Assign(AssignEvent.Start, value: 100)] public int integer; //Sets the value of the member to the value specified in Start.
     
     //Works on properties as well.
@@ -53,6 +53,12 @@ public class TestMonoBehaviour : AutomatedMonoBehaviour {
     }
 }
 ```
+<h3>Details</h3>
+Supported events are <b>Awake, Start, OnEnable, Update, FixedUpdate</b> and <b>LateUpdate</b>
+Supported Get Modes are <b>Self - GetComponent(), Child - GetComponentInChildren()</b> and <b>Parent - GetComponentInParent()</b>
+<b><i>GetComponentInChildren() is invoked with the includeInactive flag set.</i></b>
+<br>
+If an order is not specified, the order in which the member was defined in is used instead. 
 
 <h1>Credits</h1>
 <ul>
