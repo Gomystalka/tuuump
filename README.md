@@ -54,7 +54,7 @@ public class TestMonoBehaviour : AutomatedMonoBehaviour {
 }
 ```
 <h3>Details</h3>
-Supported events are <b>Awake, Start, OnEnable, Update, FixedUpdate</b> and <b>LateUpdate</b>
+Supported events are <b>Awake, Start, OnEnable, Update, FixedUpdate</b> and <b>LateUpdate</b><br>
 Supported Get Modes are <b>Self - GetComponent(), Child - GetComponentInChildren()</b> and <b>Parent - GetComponentInParent()</b><br>
 <b><i>GetComponentInChildren() is invoked with the includeInactive flag set.</i></b>
 <br><br>
