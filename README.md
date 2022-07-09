@@ -20,6 +20,7 @@ Tom's Ultra Unity Utility Mega Pack
 
 ```csharp
 using Tom.PropertyGroups.Runtime;
+using UnityEngine;
 
 public class TestMonoBehaviour : MonoBehaviour {
   [PropertyGroup("Group Label")] public float number;
@@ -35,6 +36,7 @@ public class TestMonoBehaviour : MonoBehaviour {
 
 ```csharp
 using Tom.Automation.Runtime;
+using UnityEngine;
 
 public class TestMonoBehaviour : AutomatedMonoBehaviour {
     [Assign(AssignEvent.Awake, GetMode.Self)]public Rigidbody rigidBody; //Calls GetComponent on the member in Awake.
